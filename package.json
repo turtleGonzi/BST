@@ -1,0 +1,31 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx webpack serve --open",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtleGonzi/webpack-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turtleGonzi/webpack-template/issues"
+  },
+  "homepage": "https://github.com/turtleGonzi/webpack-template#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.6",
+    "jest": "^30.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
